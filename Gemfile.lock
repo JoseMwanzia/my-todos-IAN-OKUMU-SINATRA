@@ -44,12 +44,14 @@ GEM
       activerecord (>= 4.1)
       sinatra (>= 1.0)
     sqlite3 (1.6.1-x86_64-darwin)
+    sqlite3 (1.6.1-x86_64-linux)
     tilt (2.1.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
 
 PLATFORMS
   x86_64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   activerecord (~> 7.0, >= 7.0.4.2)

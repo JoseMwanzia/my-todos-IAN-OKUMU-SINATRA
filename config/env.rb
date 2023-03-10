@@ -6,4 +6,4 @@ Bundler.require(:default, ENV["RACK_ENV"])
 # require_relative "../app/controllers/todo_controller"
 # require_relative "../app/models/todos"
 
-require_all "app"
+require_all "app"  
