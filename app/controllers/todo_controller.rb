@@ -44,7 +44,7 @@ end
             todo = Todo.find(params[:id].to_i)
             # data.delete("createdAt")
             todo.update(data)
-            {message: "Todo deleted succesfully"}.to_json
+            {message: "Todo updated succesfully"}.to_json
         rescue => e
             [422, { error: e.message }.to_json]
         end
